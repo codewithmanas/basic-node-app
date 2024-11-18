@@ -20,7 +20,7 @@ const posts = [
 ]
 
 app.get("/posts", (req, res) => {
-    res.send(posts);
+    res.json(posts);
 })
 
 
